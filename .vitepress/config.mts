@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "DTI Notes",
   description: "Digital Technology and Innovation Study Notes",
+  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
